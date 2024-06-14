@@ -1,0 +1,40 @@
+.type_container {
+    display: inline-block;
+}
+
+.text {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* keyframes */
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    40% {
+        width: 100%;
+    }
+    70% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+
+@keyframes erase {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
+}

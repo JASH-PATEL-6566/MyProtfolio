@@ -1,0 +1,14 @@
+.fix_image_container {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-color: transparent !important;
+    background-size: cover;
+    object-fit: contain;
+    background-image: "../Assets/image1.jpg";
+    background-attachment: fixed;
+    color: white;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}

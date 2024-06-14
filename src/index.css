@@ -1,7 +1,68 @@
+:root {
+    --back-groud-color: #212121;
+    --white-color: #ffffff;
+    --blue-color: #9a99ff;
+    --yellow-color: #e6db74;
+    --sky-blue-color: #2fcbef;
+}
+
 body {
     margin: 0;
-    font-family: "VT323", monospace;
+    font-family: "VT323", monospace !important;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
+    letter-spacing: 1.2px !important;
+    background-color: var(--back-groud-color) !important;
+    color: var(--white-color) !important;
 }
+/* color */
+
+.dark_background {
+    background-color: var(--back-groud-color) !important;
+}
+.yellow_color {
+    color: var(--yellow-color) !important;
+}
+.blue_color {
+    color: var(--blue-color) !important;
+}
+.sky_blue_color {
+    color: var(--sky-blue-color) !important;
+}
+.white_color {
+    color: var(--white-color) !important;
+}
+
+/* navbar color */
+.li_not_selected {
+    color: var(--yellow-color) !important;
+    padding-inline: 1.5rem !important;
+}
+
+.li_not_selected:hover {
+    color: var(--blue-color) !important;
+}
+
+.li_selected {
+    color: var(--sky-blue-color) !important;
+    padding-inline: 1.5rem !important;
+}
+
+/* font size */
+.big_fonts {
+    font-size: 3rem !important;
+}
+
+.avg_fonts {
+    font-size: 2rem !important;
+}
+
+.mid_fonts {
+    font-size: 1.7rem !important;
+}
+
+.small_fonts {
+    font-size: 1.4rem !important;
+}
+
+/* navbar toggler */
