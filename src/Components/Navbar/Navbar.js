@@ -12,7 +12,7 @@ function TopNavbar() {
         <Navbar collapseOnSelect expand="lg">
             <Container>
                 <Navbar.Brand className='avg_fonts white_color'>
-                    //&nbsp;&nbsp;&nbsp;JASH PATEL
+                    &#47;&#47;&nbsp;&nbsp;&nbsp;JASH PATEL
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{ border: 'none', outline: 'none' }}>
                     <FaBars style={{ color: "white" }} />
@@ -23,11 +23,11 @@ function TopNavbar() {
                     <Nav>
                         {
                             pages.map(page => {
-                                if (page == "home") {
-                                    return <Nav.Link key={page} href="./" className={`small_fonts pe-3 ${location.pathname == "/" ? 'li_selected' : 'li_not_selected'}`}>_{page}</Nav.Link>
+                                if (page === "home") {
+                                    return <Nav.Link key={page} href="./" className={`small_fonts pe-3 ${location.pathname === "/" ? 'li_selected' : 'li_not_selected'}`}>_{page}</Nav.Link>
                                 }
                                 const path = "/" + page;
-                                return <Nav.Link key={page} href={`.${path}`} className={`small_fonts pe-3 ${location.pathname == path ? 'li_selected' : 'li_not_selected'}`}>_{page}</Nav.Link>
+                                return <Nav.Link key={page} href={`.${path}`} className={`small_fonts pe-3 ${location.pathname === path ? 'li_selected' : 'li_not_selected'}`}>_{page}</Nav.Link>
                             })
                         }
                     </Nav>
