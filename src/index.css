@@ -30,12 +30,12 @@
 
 @media only screen and (max-width: 900px) {
     :root {
-        font-size: 13px;
+        font-size: 14px;
     }
 }
 @media only screen and (max-width: 450px) {
     :root {
-        font-size: 10px;
+        font-size: 11px;
     }
 }
 

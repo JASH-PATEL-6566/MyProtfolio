@@ -14,7 +14,7 @@ function Root() {
             <FixImage image={image}>
                 <div className='d-flex flex-column dark_background align-items-center justify-content-center py-5'>
                     <p className='vsmall_fonts' style={{ letterSpacing: '4px' }}>&#47;&#47;&nbsp;&nbsp;Hi, I'M Jash Patel, A ....</p>
-                    <TypeAnimation texts={["_Full stack webdeveloper", "_Web Designer", "_Backend Developer"]} color="blue" size="vbig" time={6} />
+                    <TypeAnimation texts={["_Full stack webdeveloper", "_Web Designer", "_Backend Developer"]} color="blue" size="avg" time={6} />
                 </div>
             </FixImage>
 
