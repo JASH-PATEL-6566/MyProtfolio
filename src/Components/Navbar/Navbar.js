@@ -27,7 +27,7 @@ function TopNavbar() {
                                     return <Nav.Link key={page} href="./" className={`small_avg_fonts pe-3 ${location.pathname === "/" ? 'li_selected' : 'li_not_selected'}`}>_{page}</Nav.Link>
                                 }
                                 const path = "./" + page;
-                                return <Nav.Link key={page} as={NavLink} to={`.${path}`} className={`small_fonts pe-3 ${location.pathname === `/${page}` ? 'li_selected' : 'li_not_selected'}`}>_{page}</Nav.Link>
+                                return <Nav.Link key={page} as={NavLink} to={`.${path}`} className={`small_avg_fonts pe-3 ${location.pathname === `/${page}` ? 'li_selected' : 'li_not_selected'}`}>_{page}</Nav.Link>
                             })
                         }
                     </Nav>
