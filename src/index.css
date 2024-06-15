@@ -7,6 +7,26 @@
     font-size: 17px;
 }
 
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--back-groud-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--yellow-color);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 @media only screen and (max-width: 900px) {
     :root {
         font-size: 13px;
