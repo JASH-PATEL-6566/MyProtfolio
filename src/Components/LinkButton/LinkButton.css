@@ -1,0 +1,6 @@
+.button {
+    text-decoration: none;
+    background-color: var(--sky-blue-color);
+    color: var(--white-color);
+    padding: 0.5em 2em;
+}
