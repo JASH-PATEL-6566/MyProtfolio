@@ -5,6 +5,7 @@ import FixImage from '../Components/FixImage/FixImage';
 import image from "../Assets/image1.jpg";
 import AboutHome from '../Components/AboutHome/AboutHome';
 import PortfolioHome from '../Components/PortfolioHome/PortfolioHome';
+import ServicesHome from '../Components/ServicesHome/ServicesHome';
 
 
 function Root() {
@@ -22,6 +23,9 @@ function Root() {
 
             {/* Portfolio Section */}
             <PortfolioHome />
+
+            {/* Services Section */}
+            <ServicesHome />
 
         </BaseLayout >
     );

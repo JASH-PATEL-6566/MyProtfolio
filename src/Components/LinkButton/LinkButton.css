@@ -4,3 +4,7 @@
     color: var(--white-color);
     padding: 0.5em 2em;
 }
+
+.button:hover {
+    background-color: var(--blue-color);
+}

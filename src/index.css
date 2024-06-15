@@ -124,6 +124,16 @@ body {
     border: 1px solid var(--back-groud-light-color);
 }
 
+.hover-yellow:hover {
+    background-color: var(--yellow-color);
+    cursor: text;
+}
+
+.hover-blue:hover {
+    background-color: var(--blue-color);
+    cursor: text;
+}
+
 @media (max-width: 767.98px) {
     .column-border {
         border-right: none; /* Remove right border on small screens */
