@@ -1,0 +1,13 @@
+.button {
+    text-decoration: none;
+    background-color: var(--sky-blue-color);
+    color: var(--white-color);
+    padding: 0.5em 2em;
+    border: none;
+    outline: none;
+    margin-top: 1em;
+}
+
+.button:hover {
+    background-color: var(--blue-color);
+}

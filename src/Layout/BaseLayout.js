@@ -1,6 +1,7 @@
 import React from 'react'
 import TopNavbar from '../Components/Navbar/Navbar';
 import { Container } from 'react-bootstrap';
+import Footer from '../Components/Footer/Footer';
 
 function BaseLayout({ children }) {
     return (
@@ -9,6 +10,7 @@ function BaseLayout({ children }) {
             <Container>
                 {children}
             </Container>
+            <Footer />
         </>
     )
 }

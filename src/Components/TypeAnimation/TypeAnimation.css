@@ -1,6 +1,6 @@
 .type_container {
     display: inline-block;
-    margin: 0;
+    padding-right: 2rem;
 }
 
 .text {
@@ -10,32 +10,17 @@
 }
 
 /* keyframes */
-@keyframes cursor {
-    50% {
-        border-color: transparent;
-    }
-}
-
 @keyframes typing {
     0% {
         width: 0;
     }
-    40% {
-        width: 100%;
-    }
-    70% {
-        width: 100%;
-    }
     100% {
-        width: 0%;
+        width: 100%;
     }
 }
 
-@keyframes erase {
-    from {
-        width: 100%;
-    }
-    to {
-        width: 0;
+@keyframes cursor {
+    50% {
+        border-color: transparent;
     }
 }

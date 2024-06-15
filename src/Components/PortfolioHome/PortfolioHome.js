@@ -13,14 +13,14 @@ function PortfolioHome() {
             <Title symbol={"!"} title={"protfolio"} discription={"aksjdh akjsdh kasdh kajsdhk ajhsdk ahsd abjdgh a"} />
             <div className="d-flex flex-column justify-content-center align-items-center">
                 <Row className="all-border">
-                    <Column className="column-border py-5">
+                    <Column className="align-items-center column-border py-5">
                         <Image src={image} className='w-50' />
                         <ImageDetails
                             title="Project1"
                             discription="lorem akjsdh aksjdh kasdhk asd sjdkfsjdfl"
                         />
                     </Column>
-                    <Column className="py-5">
+                    <Column className="align-items-center py-5">
                         <Image src={image} className='w-50' />
                         <ImageDetails
                             title="Project2"
@@ -29,14 +29,14 @@ function PortfolioHome() {
                     </Column>
                 </Row>
                 <Row className="all-border">
-                    <Column className="column-border py-5">
+                    <Column className="align-items-center column-border py-5">
                         <Image src={image} className='w-50' />
                         <ImageDetails
                             title="Project1"
                             discription="lorem akjsdh aksjdh kasdhk asd sjdkfsjdfl"
                         />
                     </Column>
-                    <Column className="py-5">
+                    <Column className="align-items-center py-5">
                         <Image src={image} className='w-50' />
                         <ImageDetails title="Project2" discription="lorem akjsdh aksjdh kasdhk asd sjdkfsjdfl" />
                     </Column>

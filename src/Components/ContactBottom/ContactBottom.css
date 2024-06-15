@@ -1,0 +1,25 @@
+.input {
+    border: none;
+    outline: none;
+    background-color: transparent !important;
+    border-bottom: 1px solid var(--back-groud-light-color);
+    color: var(--blue-color);
+    padding-top: 1em;
+    padding-bottom: 2em;
+    letter-spacing: 1.2px;
+    margin-block: 0.5rem;
+    width: 100%;
+}
+
+.textarea {
+    line-height: 1.7rem;
+}
+
+.input:focus {
+    border-bottom: 1px solid var(--back-groud-light2-color);
+}
+
+::placeholder {
+    color: var(--blue-color);
+    opacity: 1; /* Firefox */
+}

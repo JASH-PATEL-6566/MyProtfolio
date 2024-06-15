@@ -1,6 +1,7 @@
 :root {
     --back-groud-color: #212121;
     --back-groud-light-color: #3a3a3a;
+    --back-groud-light2-color: #616161;
     --white-color: #ffffff;
     --blue-color: #9a99ff;
     --yellow-color: #e6db74;
@@ -83,7 +84,7 @@ body {
 
 /* font size */
 .vvbig_fonts {
-    font-size: 4rem !important;
+    font-size: 4.5rem !important;
 }
 
 .vbig_fonts {

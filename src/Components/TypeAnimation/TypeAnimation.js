@@ -18,10 +18,9 @@ function TypeAnimation({ texts, color, size, time }) {
         setCurrentText(texts[currentIndex]);
     }, [currentIndex, texts]);
 
-    const steps = currentText.split("").length;
     return (
         <div className="type_container">
-            <p className={`text ${size}_fonts`} style={{ color: `var(--${color}-color)`, borderRight: `10px solid var(--${color}-color)`, animation: `typing ${time}s steps(${steps}) infinite,cursor 0.5s step-end infinite alternate` }}>{currentText}</p>
+            <p className={`text ${size}_fonts`} style={{ color: `var(--${color}-color)`, borderRight: `10px solid var(--${color}-color)`, animation: `typing ${time}s infinite linear,cursor 0.5s step-end infinite alternate` }}>{currentText}</p>
         </div >
     )
 }
