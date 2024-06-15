@@ -3,10 +3,6 @@ import BaseLayout from '../Layout/BaseLayout';
 import TypeAnimation from '../Components/TypeAnimation/TypeAnimation';
 import FixImage from '../Components/FixImage/FixImage';
 import image from "../Assets/image1.jpg";
-import Title from '../Components/Title/Title';
-import LinkButton from '../Components/LinkButton/LinkButton';
-import Column from '../Layout/Column';
-import Row from '../Layout/Row';
 import HomeAbout from '../Components/HomeAbout/HomeAbout';
 import PortfolioHome from '../Components/PortfolioHome/PortfolioHome';
 
