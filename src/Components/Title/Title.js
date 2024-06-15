@@ -6,7 +6,7 @@ function Title({ symbol, title, discription }) {
         <div className="title_container">
             <span className="symbol blue_color small_fonts m-0">&#123;{symbol}&#125;</span>
             <p className="heading vvbig_fonts m-0">&#60;{title}&#62;</p>
-            <p className="discription yellow_color vsmall_fonts m-0">{discription}</p>
+            <p className="discription yellow_color small_fonts m-0">{discription}</p>
         </div>
     )
 }

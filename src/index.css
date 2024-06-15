@@ -102,12 +102,16 @@ body {
     font-size: 1.7rem !important;
 }
 
+.small_avg_fonts {
+    font-size: 1.5rem;
+}
+
 .small_fonts {
     font-size: 1.4rem !important;
 }
 
 .vsmall_fonts {
-    font-size: 1.3rem !important;
+    font-size: 1.33rem !important;
 }
 
 .column-border {

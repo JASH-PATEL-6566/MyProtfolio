@@ -3,7 +3,7 @@ import BaseLayout from '../Layout/BaseLayout';
 import TypeAnimation from '../Components/TypeAnimation/TypeAnimation';
 import FixImage from '../Components/FixImage/FixImage';
 import image from "../Assets/image1.jpg";
-import HomeAbout from '../Components/HomeAbout/HomeAbout';
+import AboutHome from '../Components/AboutHome/AboutHome';
 import PortfolioHome from '../Components/PortfolioHome/PortfolioHome';
 
 
@@ -18,7 +18,7 @@ function Root() {
             </FixImage>
 
             {/* About Section */}
-            <HomeAbout />
+            <AboutHome />
 
             {/* Portfolio Section */}
             <PortfolioHome />
