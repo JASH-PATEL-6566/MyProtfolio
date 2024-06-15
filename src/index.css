@@ -107,7 +107,22 @@ body {
 }
 
 .vsmall_fonts {
-    font-size: 1.2rem !important;
+    font-size: 1.3rem !important;
 }
 
-/* navbar toggler */
+.column-border {
+    border-right: 1px solid var(--back-groud-light-color);
+}
+.top-border {
+    border-top: 1px solid var(--back-groud-light-color);
+}
+.all-border {
+    border: 1px solid var(--back-groud-light-color);
+}
+
+@media (max-width: 767.98px) {
+    .column-border {
+        border-right: none; /* Remove right border on small screens */
+        border-bottom: 1px solid var(--back-groud-light-color); /* Add bottom border on small screens */
+    }
+}

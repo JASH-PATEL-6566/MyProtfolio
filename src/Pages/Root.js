@@ -5,6 +5,11 @@ import FixImage from '../Components/FixImage/FixImage';
 import image from "../Assets/image1.jpg";
 import Title from '../Components/Title/Title';
 import LinkButton from '../Components/LinkButton/LinkButton';
+import Column from '../Layout/Column';
+import Row from '../Layout/Row';
+import HomeAbout from '../Components/HomeAbout/HomeAbout';
+import PortfolioHome from '../Components/PortfolioHome/PortfolioHome';
+
 
 function Root() {
     return (
@@ -17,21 +22,11 @@ function Root() {
             </FixImage>
 
             {/* About Section */}
-            <Title symbol={"/"} title={"about_me"} discription={"ajsda aksjd aksdh kasdhkahsdk haksd  aksjdh akjdhak jdshkaj dshk asd"} />
-            <div className="d-flex flex-column justify-content-center align-items-center">
-                <div className="row">
-                    <div className="col md-2 d-flex justify-content-center align-item-center small_fonts text-decoration-underline" style={{ borderRight: '1px solid var(--back-groud-light-color)' }}>
-                        <p className='w-75 py-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae consequuntur fugiat ullam quia, voluptatem explicabo ad corporis aperiam? Quae, ea.</p>
-                    </div>
-                    <div className="col md-2 d-flex justify-content-center align-items-center vvsmall_fonts">
-                        <p className='w-75 py-5 yellow_color' style={{ textAlign: 'justify' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum distinctio velit dolore consequuntur sapiente quas ipsa aut consequatur doloribus fugiat similique, sunt enim mollitia quam, nemo earum illum doloremque hic esse id at temporibus voluptate repellendus. Facere sunt labore doloremque?</p>
-                    </div>
-                </div>
-                <LinkButton to={"./about"} content={"read_more"} />
-            </div>
+            <HomeAbout />
 
             {/* Portfolio Section */}
-            <Title symbol={"!"} title={"protfolio"} discription={"aksjdh akjsdh kasdh kajsdhk ajhsdk ahsd abjdgh a"} />
+            <PortfolioHome />
+
         </BaseLayout >
     );
 }
