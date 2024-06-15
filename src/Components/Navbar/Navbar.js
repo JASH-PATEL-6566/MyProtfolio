@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { useLocation } from 'react-router-dom';
+import { useLocation, NavLink } from 'react-router-dom';
 import { FaBars } from "react-icons/fa";
 
 
@@ -26,8 +26,8 @@ function TopNavbar() {
                                 if (page === "home") {
                                     return <Nav.Link key={page} href="./" className={`small_fonts pe-3 ${location.pathname === "/" ? 'li_selected' : 'li_not_selected'}`}>_{page}</Nav.Link>
                                 }
-                                const path = "/" + page;
-                                return <Nav.Link key={page} href={`.${path}`} className={`small_fonts pe-3 ${location.pathname === path ? 'li_selected' : 'li_not_selected'}`}>_{page}</Nav.Link>
+                                const path = "./" + page;
+                                return <Nav.Link key={page} as={NavLink} to={`.${path}`} className={`small_fonts pe-3 ${location.pathname === path ? 'li_selected' : 'li_not_selected'}`}>_{page}</Nav.Link>
                             })
                         }
                     </Nav>

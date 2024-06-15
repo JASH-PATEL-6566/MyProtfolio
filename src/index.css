@@ -4,6 +4,18 @@
     --blue-color: #9a99ff;
     --yellow-color: #e6db74;
     --sky-blue-color: #2fcbef;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 900px) {
+    :root {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    :root {
+        font-size: 10px;
+    }
 }
 
 body {
