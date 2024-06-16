@@ -8,7 +8,7 @@ import BButton from '../LinkButton/BButton';
 function ProjectElement({ image, title, discription, code_link, live_link, reverse }) {
     return (
         <>
-            <Row className={`top-border ${reverse ? 'flex-row-reverse' : ''}`}>
+            <Row className={`top-border py-4 ${reverse ? 'flex-row-reverse' : ''}`}>
                 <Column className={"p-0 my-3 overflow-hidden"}>
                     <Image src={image} className='imagehover' />
                 </Column>
