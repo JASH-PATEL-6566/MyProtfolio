@@ -8,7 +8,7 @@ function PageStarting({ children, title, discription, disSize }) {
         <>
             <div className='d-flex flex-column align-items-center justify-content-center pt-4'>
                 <OneTimeTypeAnimation text={title} color="sky-blue" size="vvbig" time={3} />
-                <p className={`${disSize}_fonts yellow_color text-center`} style={{ width: '60%' }}>{discription}</p>
+                <p className={`${disSize}_fonts yellow_color text-center`} style={{ width: '75%' }}>{discription}</p>
                 {children}
             </div>
             <FixImage image={image} height={18} className={"mt-5"} />
