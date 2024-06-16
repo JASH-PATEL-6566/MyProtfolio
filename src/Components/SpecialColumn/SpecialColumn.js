@@ -11,7 +11,7 @@ function SpecialColumn({ symbol, title, descriptionHeading, description }) {
                 <p className='mid_fonts'>&#123;{symbol}&#125;</p>
                 <TypeAnimation color={"blue"} size={"mid"} texts={[title]} time={4} />
             </Column>
-            <Column className={"special-border"}>
+            <Column className={"special-border py-4"}>
                 {descriptionHeading !== "" ? <p className="white_color small_fonts">&#47;&#47;{descriptionHeading}</p> : <></>}
                 <p className='yellow_color vsmall_fonts'>{description}</p>
             </Column>

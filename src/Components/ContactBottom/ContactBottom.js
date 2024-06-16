@@ -5,11 +5,11 @@ import image from "../../Assets/image1.jpg";
 import "./ContactBottom.css";
 import Button from '../Button/Button';
 
-function ContactBottom() {
+function ContactBottom({ showExtra = true }) {
     return (
         <>
-            <FixImage image={image} height={18} className={"mt-5"} />
-            <Title symbol={"*"} title={"contact_me"} discription={"l askdjha ksdjh aksjdh kajsdh ka"} />
+            {showExtra ? <FixImage image={image} height={18} className={"mt-5"} /> : <></>}
+            {showExtra ? <Title symbol={"*"} title={"contact_me"} discription={"l askdjha ksdjh aksjdh kajsdh ka"} /> : <></>}
             <div className="d-flex flex-column justify-content-center align-items-center">
                 <input type="text" className='input small_fonts' placeholder='_name*' spellcheck="false" />
                 <input type="text" className='input small_fonts' placeholder='_email*' spellcheck="false" />
