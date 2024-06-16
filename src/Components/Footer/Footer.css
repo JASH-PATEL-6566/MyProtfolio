@@ -1,3 +1,16 @@
+.all_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .link {
     color: var(--white-color);
     text-decoration: none;
@@ -8,4 +21,16 @@
 .div {
     max-width: 33.33%;
     width: 33.33%;
+}
+
+@media screen and (max-width: 767px) {
+    .all_container {
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .links {
+        flex-direction: column;
+    }
 }

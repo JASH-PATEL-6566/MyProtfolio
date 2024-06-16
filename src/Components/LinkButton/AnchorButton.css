@@ -1,0 +1,28 @@
+.buttonCode {
+    text-decoration: none;
+    background-color: transparent;
+    border: 3px solid var(--yellow-color);
+    color: var(--yellow-color);
+    padding: 0.4em 1em;
+}
+
+.buttonLive {
+    text-decoration: none;
+    background-color: transparent;
+    border: 3px solid var(--blue-color);
+    color: var(--blue-color);
+    padding: 0.4em 1em;
+}
+
+.buttonLive:hover {
+    background-color: var(--blue-color);
+    border: 3px solid var(--blue-color);
+    color: var(--back-groud-color);
+}
+
+.buttonCode:hover {
+    background-color: var(--yellow-color);
+    border: 3px solid var(--yellow-color);
+    color: var(--back-groud-color);
+    cursor: pointer;
+}

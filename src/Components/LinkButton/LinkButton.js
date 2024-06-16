@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function LinkButton({ to, content }) {
     return (
-        <Link to={to} className='button small_avg_fonts'>
+        <Link to={to} className='buttonLink small_avg_fonts'>
             <span>
                 &#123;{content}&#125;
             </span>

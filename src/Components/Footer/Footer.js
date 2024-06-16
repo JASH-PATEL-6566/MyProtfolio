@@ -5,8 +5,8 @@ import "./Footer.css";
 
 function Footer() {
     return (
-        <div className="d-flex top-border justify-content-around align-items-center mt-5 py-3">
-            <div className="d-flex flex-wrap links div">
+        <div className="all_container top-border  mt-5 py-3">
+            <div className="links div">
                 <Link className='link yellow_color' to="/">_home</Link>
                 <Link className='link yellow_color' to="/about">_about</Link>
                 <Link className='link yellow_color' to="/portfolio">_portfolio</Link>

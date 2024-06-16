@@ -141,3 +141,15 @@ body {
         border-bottom: 1px solid var(--back-groud-light-color); /* Add bottom border on small screens */
     }
 }
+
+.imagehover {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.imagehover:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 0.7;
+}
