@@ -7,7 +7,7 @@ import ContactBottom from '../Components/ContactBottom/ContactBottom';
 function Services() {
     return (
         <BaseLayout>
-            <PageStarting title={"services"} isImage={false} disSize={"vvsmall"} discription={"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit deleniti inventore eum commodi debitis pariatur magnam quia, iste ipsam maiores numquam harum, culpa"} />
+            <PageStarting title={"qualification"} isImage={false} disSize={"vsmall"} discription={"I have consistently excelled academically, demonstrating strong analytical and problem-solving skills. My dedication to learning has provided me with a solid foundation in various technologies and development practices."} />
             <AllServices />
             <ContactBottom />
         </BaseLayout>

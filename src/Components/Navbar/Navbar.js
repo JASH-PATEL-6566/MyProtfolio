@@ -7,12 +7,12 @@ import { FaBars } from "react-icons/fa";
 
 function TopNavbar() {
     const location = useLocation();
-    const pages = ["home", "about", "portfolio", "services", "resume", "contact"];
+    const pages = ["home", "about", "portfolio", "qualification", "experience", "contact"];
     return (
-        <Navbar collapseOnSelect expand="lg">
+        <Navbar collapseOnSelect expand="xl">
             <Container>
                 <Navbar.Brand className='avg_fonts white_color'>
-                    &#47;&#47;&nbsp;&nbsp;&nbsp;JASH PATEL
+                    &#47;&#47;&nbsp;&nbsp;JASH PATEL
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{ border: 'none', outline: 'none' }}>
                     <FaBars style={{ color: "white" }} />
@@ -24,10 +24,10 @@ function TopNavbar() {
                         {
                             pages.map(page => {
                                 if (page === "home") {
-                                    return <Nav.Link key={page} href="./" className={`small_avg_fonts pe-3 ${location.pathname === "/" ? 'li_selected' : 'li_not_selected'}`}>_{page}</Nav.Link>
+                                    return <Nav.Link key={page} href="./" className={`small_fonts pe-3 ${location.pathname === "/" ? 'li_selected' : 'li_not_selected'}`}>_{page}</Nav.Link>
                                 }
                                 const path = "./" + page;
-                                return <Nav.Link key={page} as={NavLink} to={`.${path}`} className={`small_avg_fonts pe-3 ${location.pathname === `/${page}` ? 'li_selected' : 'li_not_selected'}`}>_{page}</Nav.Link>
+                                return <Nav.Link key={page} as={NavLink} to={`.${path}`} className={`small_fonts pe-3 ${location.pathname === `/${page}` ? 'li_selected' : 'li_not_selected'}`}>_{page}</Nav.Link>
                             })
                         }
                     </Nav>

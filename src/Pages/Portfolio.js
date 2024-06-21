@@ -8,7 +8,7 @@ import ContactBottom from '../Components/ContactBottom/ContactBottom';
 function Portfolio() {
     return (
         <BaseLayout>
-            <PageStarting title={"portfolio"} disSize={"vvsmall"} discription={"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit deleniti inventore eum commodi debitis pariatur magnam quia, iste ipsam maiores numquam harum, culpa"} />
+            <PageStarting title={"portfolio"} disSize={"vsmall"} discription={"...Throughout my journey, I have completed numerous projects across various technologies to explore different domains and acquire new skills."} />
             <Title title={"Projects"} symbol={""} discription={""} />
             <PortfolioProject />
             <ContactBottom />
