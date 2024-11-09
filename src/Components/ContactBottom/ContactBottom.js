@@ -32,7 +32,7 @@ function ContactBottom({ showExtra = true }) {
             {showExtra ? <Title symbol={"*"} title={"contact_me"} discription={"l askdjha ksdjh aksjdh kajsdh ka"} /> : <></>}
             <form ref={form} onSubmit={sendEmail} className="d-flex flex-column justify-content-center align-items-center">
                 <input type="text" className='input small_fonts' placeholder='_name*' spellCheck="false" name='from_name' />
-                <input type="text" className='input small_fonts' placeholder='_email*' spellCheck="false" name="reply_to" />
+                <input type="email" className='input small_fonts' placeholder='_email*' spellCheck="false" name="reply_to" />
                 <textarea rows="7" className='input textarea small_fonts' placeholder='_message*' spellCheck="false" name="message" />
                 <Button content={"send"} type='submit' />
             </form>

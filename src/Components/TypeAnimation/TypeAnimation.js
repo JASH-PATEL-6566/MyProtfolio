@@ -6,10 +6,10 @@ function TypeAnimation({ texts, color, size, time }) {
     const [currentText, setCurrentText] = useState(texts[0]);
 
     useEffect(() => {
-        // const steps = currentText.split("").length;
+
         const interval = setInterval(() => {
             setCurrentIndex(prevIndex => (prevIndex + 1) % texts.length);
-        }, time * 1000); // adding extra time for the cursor animation
+        }, time * 1000);
 
         return () => clearInterval(interval);
     }, [currentText, texts.length, time]);
